@@ -1,0 +1,68 @@
+body{
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+    text-transform: uppercase;
+
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+
+    color: #EA1C2C;
+
+}
+
+#mainHeading span{
+    color: #EA1C2C;
+}
+
+#mainHeading h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+/* 1200 px is xl size */
+@media(max-width:1200px){
+    #mainHeading h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    
+}
+
+#lolli_icon{
+    align-items: center;
+}
+
+h2{
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+.lead{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.mycontent{
+    margin-top: 100px;
+}
+
+/* scrolled class for the navbar */
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
